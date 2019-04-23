@@ -1,4 +1,4 @@
-# RocketHub Tutorial #1
+# PyTorch Rocket Yolov3 RetinaNet SSD - Tutorial 2: A Tale of 3 Rockets
     Have you ever wanted to test multiple Deep Learning models and compare their results very easily?
 
     Are you tired of picking a Deep Learning model just because it is the only one you are able to run?
