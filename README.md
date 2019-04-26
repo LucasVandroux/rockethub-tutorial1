@@ -33,11 +33,13 @@ Once you are ready you just need to run `python detect.py` and everything will h
 Don't hesitate to play around by swapping the different Rockets and comparing their output.
 
 ## Outputs of the different Rockets
-| Filename | Original | SSD | RetinaNet | YOLOv3 |
-|----------|----------|-----------|-----|--------|
-| `office.jpg` | ![image-original-office](images/office.jpg) | ![image-ssd-office](images/detections/ssd/office.jpg) | ![image-retinanet-office](images/detections/retinanet/office.jpg)|![image-yolov3-office](images/detections/yolov3/office.jpg)|
-|`shop.jpg`|![image-original-shop](images/shop.jpg)|![image-ssd-shop](images/detections/ssd/shop.jpg)|![image-retinanet-shop](images/detections/retinanet/shop.jpg)|![image-yolov3-shop](images/detections/yolov3/shop.jpg)|
-|`street.jpg`|![image-original-street](images/street.jpg)|![image-ssd-street](images/detections/ssd/street.jpg)|![image-retinanet-street](images/detections/retinanet/street.jpg)|![image-yolov3-street](images/detections/yolov3/street.jpg)|
+| Filename | Original | SSD | RetinaNet | YOLOv3 | Google Vision AI |
+|----------|----------|-----------|-----|--------|------------------|
+| `office.jpg` | ![image-original-office](images/office.jpg) | ![image-ssd-office](images/detections/ssd/office.jpg) | ![image-retinanet-office](images/detections/retinanet/office.jpg)|![image-yolov3-office](images/detections/yolov3/office.jpg)|![image-googleAPI-office](images/detections/googleAPI/office.jpg)|
+|`shop.jpg`|![image-original-shop](images/shop.jpg)|![image-ssd-shop](images/detections/ssd/shop.jpg)|![image-retinanet-shop](images/detections/retinanet/shop.jpg)|![image-yolov3-shop](images/detections/yolov3/shop.jpg)|![image-googleAPI-shop](images/detections/googleAPI/shop.jpg)|
+|`street.jpg`|![image-original-street](images/street.jpg)|![image-ssd-street](images/detections/ssd/street.jpg)|![image-retinanet-street](images/detections/retinanet/street.jpg)|![image-yolov3-street](images/detections/yolov3/street.jpg)|![image-googleAPI-street](images/detections/googleAPI/street.jpg)|
+
+We added the outputs from the [Google Vision AI](https://cloud.google.com/vision/) to compare with the results of our Rockets.
 
 The Rockets are also outputting a Json formatted answer that you can use to integrate the Rockets in one of your Kickass project.
 
