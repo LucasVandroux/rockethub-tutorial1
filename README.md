@@ -32,6 +32,20 @@ Once you are ready you just need to run `python detect.py` and everything will h
 
 Don't hesitate to play around by swapping the different Rockets and comparing their output.
 
+To run the three models against all sample images, simply use:
+
+```
+python ./detect.py street lucas/ssd
+python ./detect.py street igor/retinanet
+python ./detect.py street lucas/yolov3
+python ./detect.py office lucas/ssd
+python ./detect.py office igor/retinanet
+python ./detect.py office lucas/yolov3
+python ./detect.py shop lucas/ssd
+python ./detect.py shop igor/retinanet
+python ./detect.py shop lucas/yolov3
+```
+
 ## Outputs of the different Rockets
 | Filename | Original | SSD | RetinaNet | YOLOv3 | Google Vision AI |
 |----------|----------|-----------|-----|--------|------------------|
