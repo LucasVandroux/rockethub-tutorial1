@@ -1,7 +1,4 @@
-import inspect, os
-
 import torch
-from torch.autograd import Variable
 from rocketbase import Rocket
 from PIL import Image
 
@@ -40,6 +37,4 @@ print(*bboxes_out, sep='\n')
 img_out = model.postprocess(out, img, visualize=True)
 img_out_path = 'out.jpg'
 img_out.save(img_out_path)
-print('You can see the detections on the image: \'' + img_out_path +'\'.')
-
-
+print('You can see the detections on the image: \'' + img_out_path + '\'.')
