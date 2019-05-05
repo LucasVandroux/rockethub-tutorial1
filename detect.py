@@ -2,7 +2,7 @@ import inspect, os
 
 import torch
 from torch.autograd import Variable
-from rockethub import Rocket
+from rocketbase import Rocket
 from PIL import Image
 
 # --- LOAD IMAGE ---
@@ -15,8 +15,9 @@ img = Image.open(image_path)
 
 # --- LOAD ROCKET ---
 # Select the Rocket you want to test
-rocket = "lucas/ssd"
-# rocket = "igor/retinanet"
+
+rocket = "igor/retinanet"
+# rocket = "igor/retinanet-resnet101-800px"
 # rocket = "lucas/yolov3"
 
 model = Rocket.land(rocket).eval()

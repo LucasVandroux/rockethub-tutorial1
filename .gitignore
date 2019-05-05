@@ -106,6 +106,9 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# ide
+.idea
+
 # Rockets
 rockets/
 out.jpg
