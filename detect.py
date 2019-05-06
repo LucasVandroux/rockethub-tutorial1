@@ -12,7 +12,6 @@ img = Image.open(image_path)
 
 # --- LOAD ROCKET ---
 # Select the Rocket you want to test
-
 rocket = "igor/retinanet"
 # rocket = "igor/retinanet-resnet101-800px"
 # rocket = "lucas/yolov3"
