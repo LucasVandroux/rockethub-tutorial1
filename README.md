@@ -14,7 +14,7 @@ We recommend you to use an isolated Python environement such as [virtualenv](htt
 ```
 git clone https://github.com/LucasVandroux/PyTorch-Rocket-YOLOv3-RetinaNet50-RetinaNet101
 cd PyTorch-Rocket-YOLOv3-RetinaNet50-RetinaNet101
-pip install -r requirements.txt
+pip install rocketbase
 ```
 ### Install PyTorch
 As the installation for PyTorch is different for each platform, you need to look at the [PyTorch installation guide](https://pytorch.org/get-started/locally/). Don't worry it is very simple, maximum 2 lines of codes :stuck_out_tongue_closed_eyes:
